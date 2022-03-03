@@ -8,6 +8,10 @@
     "Meiryo", sans-serif;
 }
 
+.deco {
+  font-family: 'Caveat Brush', cursive;
+  color: #b31667;
+}
 
 /*ヘッダー*/
 .header {
@@ -72,7 +76,9 @@
   font-size: 4.3vw;
   color: #b9176a;
   margin-bottom: 100px;
+  font-family: 'Caveat Brush', cursive;
 }
+
 .top_ttl_text {
   font-size: 1.9vw;
   color: #b9176a;
@@ -84,7 +90,10 @@
 }
 
 .blue {
-  color: blue;
+  color: #06a1b3;
+}
+.top_ttl_title .blue{
+  font-family: 'Caveat Brush', cursive;
 }
 
 /*ニュース*/
@@ -148,24 +157,30 @@
 
 /*アバウト*/
 .about {
-  width: 80%;
-  margin: 200px 10% 100px;
+  width: 100%;
+  height: 500px;
+  margin-top: 100px; 
+  background-color: #f5f5f5;
 }
 
 .about_ttl {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 30px;
   text-align: center;
   font-size: 24px;
 }
 
 .about_deco {
+  padding-top: 50px;
   text-align: center;
 }
 
 .about_wrapper {
+  width: 80%;
   height: 100px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about_wrapper_comment_box {
@@ -207,7 +222,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 400px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -321,7 +336,7 @@
 
 /*ブログ*/
 .blog_ttl_box {
-  padding-left: 50px;
+  padding-left: 15%;
 }
 
 .blog_ttl {
@@ -331,15 +346,17 @@
 }
 
 .blog {
-  margin: 0 auto;
-  width: 80%;
+  margin: 20px auto;
+  padding: 20px 0;
+  width: 100%;
   margin-bottom: 100px;
+  background-color: #f5f5f5;
 }
 
 .blog_wrapper {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -382,7 +399,7 @@
 }
 
 .blog_content_ttl {
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: bold;
   line-height: 20px;
   margin-top: 5px;
@@ -423,7 +440,7 @@
 
 /*会社概要*/
 .company {
-  margin: 0 auto 50px;
+  margin: 0 auto 150px;
   width: 60%;
 }
 
@@ -451,6 +468,7 @@
   width: 30%;
   text-align: left;
   font-weight: bold;
+  background-color: #f5f5f5;
 }
 
 /*フッター*/
@@ -465,19 +483,23 @@
 
 .footer_recruit_link {
   display: block;
+  background: url(../img/recruit.png) no-repeat center/cover;
+  height: 30vh;
 }
 
 .footer_mv_recruit {
   position: relative;
-  background: url(../img/recruit.png) no-repeat center/cover;
-  height: 30vh;
   width: 100vw;
+}
+
+.footer_interview_link {
+  display: block;
+  background: url(../img/interview.png) no-repeat center/cover;
+  height: 30vh;
 }
 
 .footer_mv_interview {
   position: relative;
-  background: url(../img/interview.png) no-repeat center/cover;
-  height: 30vh;
   width: 100vw;
 }
 
