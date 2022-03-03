@@ -1,0 +1,30 @@
+/*会社概要*/
+.company {
+margin: 0 auto;
+width: 60%;
+}
+
+.company_ttl{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.company_table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.company_table_th,
+.company_table_td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.company_table_th {
+  text-align: left;
+  font-weight: bold;
+}

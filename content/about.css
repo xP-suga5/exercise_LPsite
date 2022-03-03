@@ -1,0 +1,52 @@
+* {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0;
+  padding: 0;
+  color: #6a6a6a;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+  "Meiryo", sans-serif;
+}
+
+/*アバウト*/
+.about {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about_ttl {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.about_deco {
+  text-align: center;
+}
+
+.about_wrapper {
+  height: 100px;
+  display: flex;
+}
+
+.about_wrapper_comment_box {
+  width: 50%;
+  margin: 0 30px;
+}
+
+.about_wrapper_comment{
+  height: 150px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  line-height: 2;
+  margin: 20px 0;
+
+}
+
+.about_wrapper_img {
+  width: 40%;
+  height: 200px;
+  float: right;
+}

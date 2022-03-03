@@ -1,0 +1,87 @@
+* {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0;
+  padding: 0;
+  color: #6a6a6a;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
+}
+
+/*ヘッダー*/
+.header {
+  margin: 30px auto;
+  align-items: center;
+  font-weight: bold;
+  color: #00277e;
+  font-size: 26px;
+  display: flex;
+}
+
+.header_title {
+  width: 10%;
+  margin-left: 5%;
+}
+
+.company {
+  margin-left: 30px;
+}
+
+.nav {
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.nav_ul {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.nav_ul_li_a {
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto 0px;
+}
+
+/*トップ*/
+.top{
+  display: inline;
+}
+
+.top_img_container{
+  width: 60%;
+  height: 300px;
+  margin: 0 0 0 auto;
+  position: relative;
+}
+
+.top_ttl{
+  margin: 0 13%;
+  position: absolute;
+  top: 200px;
+  left: 2%;
+}
+.blue{
+  color: blue;
+}
+
+.top_ttl_title{
+  font-size: 4vw;
+  color: #b9176a;
+  margin-bottom: 100px;
+}
+.top_ttl_text{
+  font-size: 2vw;
+  color: #b9176a;
+  margin-bottom: 20px;
+}
+.top_ttl_note{
+  font-size: 1.4vw;
+  margin-bottom: 20px;
+}
+
+.blue{
+  color: blue;
+}
