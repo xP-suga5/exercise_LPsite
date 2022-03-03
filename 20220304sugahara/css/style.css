@@ -176,7 +176,7 @@
 }
 
 .about_wrapper {
-  width: 80%;
+  width: 75%;
   height: 100px;
   display: flex;
   margin-left: auto;
@@ -200,6 +200,7 @@
 .about_wrapper_img {
   width: 50%;
   height: 200px;
+  padding-top: 30px;
 }
 
 .about_img {
