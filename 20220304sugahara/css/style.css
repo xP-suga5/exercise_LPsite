@@ -4,12 +4,10 @@
   margin: 0;
   padding: 0;
   color: #6a6a6a;
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
-    "Meiryo", sans-serif;
 }
 
 .deco {
-  font-family: 'Caveat Brush', cursive;
+  font-family: 'Indie Flower', cursive;
   color: #b31667;
 }
 
@@ -73,10 +71,10 @@
 }
 
 .top_ttl_title {
-  font-size: 4.3vw;
+  font-size: 5vw;
   color: #b9176a;
   margin-bottom: 100px;
-  font-family: 'Caveat Brush', cursive;
+  font-family: 'Indie Flower', cursive;
 }
 
 .top_ttl_text {
@@ -93,7 +91,7 @@
   color: #06a1b3;
 }
 .top_ttl_title .blue{
-  font-family: 'Caveat Brush', cursive;
+  font-family: 'Indie Flower', cursive;
 }
 
 /*ニュース*/
